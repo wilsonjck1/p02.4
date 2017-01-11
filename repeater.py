@@ -1,0 +1,32 @@
+"""
+Problem:
+
+    Given a list of integers, nums, find out whether the first item
+    in the list is repeated again later.
+    If it is, print "Repeated", otherwise print "Unique".
+    The list will always have a length of at least 1.
+
+Tests:
+
+    >>> is_repeated([1, 2, 3, 1])
+    Repeated
+    >>> is_repeated([2, 4, 4, 2, 1, 5])
+    Repeated
+    >>> is_repeated([5, 4, 3, 2, 1])
+    Unique
+    >>> is_repeated([8, 6, 2])
+    Unique
+    >>> is_repeated([5])
+    Unique
+
+"""
+
+# This code tests your solution. Don't edit it. 
+import doctest 
+def run_tests(): 
+    doctest.testmod(verbose=True, optionflags=doctest.NORMALIZE_WHITESPACE) 
+
+
+def is_repeated(nums):
+
+

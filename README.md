@@ -2,7 +2,12 @@
 
 ## Problem Checklist
 
+  * [ ] ends
   * [ ] unique_insert
+  * [ ] repeater
+  * [ ] pig_list
+  * [ ] most_frequent
+  * [ ] clean_sweep
 
 
 
