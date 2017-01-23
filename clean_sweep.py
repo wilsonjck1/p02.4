@@ -29,5 +29,9 @@ def run_tests():
 
 
 def clean(nums, n):
+ 
+     for i in range(nums.count(n)): 
+         nums.remove(n) 
+     print(nums) 
 
 
